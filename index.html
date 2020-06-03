@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="gmail.css">
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/Carmelo/Desktop/BooleanPreCorso/fontawesome-free-5.13.0-web/css/all.css">
+    <title>Gmail</title>
+  </head>
+  <body>
+    <header id="head">
+      <div>
+        <img src="data:image/jpeg;base64,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" alt="gmail">
+        <span id="whitespan">Gmail</span>
+        <hr>
+      </div>
+    </header>
+    <div class="nav">
+      <nav>
+        <input type="text" name="" placeholder="Cerca">
+        <button type="button" name="button">VAI</button>
+        <div id="MessNotRode">
+          You have <div id="mailleft">1200</div> unread
+        </div>
+        <hr>
+      </nav>
+    </div>
+    <main>
+      <div class="main">
+        <div class="row unread">
+          <span class="row">
+            <input type="checkbox" name="" value="scelta">
+            <i class="fas fa-star"></i>
 
-    </body>
+            <span class="corpomail">
+              Questo è l'oggetto della mail lungo ahahaahaahah
+            </span>
+
+            <span class="testomail">
+              Questo è il testo della mail
+            </span>
+          </span>
+        </div>
+        <div class="row unread">
+          <span class="row">
+            <input type="checkbox" name="" value="scelta">
+            <i class="fas fa-star"></i>
+
+            <span class="corpomail">
+              Questo è l'oggetto della mail lungo ahahaahaahah
+            </span>
+
+            <span class="testomail">
+              Questo è il testo della mail fvacrgf
+            </span>
+          </span>
+        </div>  
+        <div class="row unread">
+          <span class="row ">
+            <input type="checkbox" name="" value="scelta">
+            <i class="fas fa-star"></i>
+
+            <span class="corpomail">
+              Questo è l'oggetto della mail lungo ahahaahaahah
+            </span>
+
+            <span class="testomail">
+              Questo è il testo della mail
+            </span>
+          </span>
+        </div>
+        <div class="row read">
+          <span class="row">
+            <input type="checkbox" name="" value="scelta">
+            <i class="fas fa-star"></i>
+
+            <span class="corpomail">
+              Questo è l'oggetto della mail lungo ahahaahaahah
+            </span>
+
+            <span class="testomail">
+              Questo è il testo della mail
+            </span>
+          </span>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

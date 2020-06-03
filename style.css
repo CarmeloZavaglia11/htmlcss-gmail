@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+#head{
+  margin: auto;
+  display:block;
+  width: 50%;
+  height: 50%;
+}
+
+nav{
+  margin: auto;
+  display: block;
+  left: 500px;
+  width: 50%;
+  height: 50%;
+}
+
+img{
+  -moz-border-radius: 180px;
+  -webkit-border-radius: 180px;
+  border-radius: 180px;
+  width: 10%;
+}
+
+#whitespan{
+  color:white;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+#MessNotRode{
+  border-top: 2px solid transparent;
+  color:white;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+#mailleft{
+  display: inline;
+  color:black;
+  border-radius: 50%;
+  background-color:#FFC782 ;
+  padding: 1px;
+}
+
+main{
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+
+}
+
+.corpomail{
+  /* border-right: 1px solid black; */
+}
+
+.testomail{
+  color:darkgrey;
+}
+
+.row,
+.corpomail,
+.testomail
+{
+  display:inline-block;
+}
+
+.row{
+  border: 1px solid black;
+  width: 100%;
+}
+
+.row.unread{
+  background-color:grey;
+}
+.row.read{
+  background-color:lightgrey;
+}
+ span.testomail:hover{
+   display: none;
+ }
